@@ -1,7 +1,5 @@
 # User Stories — EPIC-07: Awards & Achievements
 
-> **Depends On:** EPIC-02 (admin manages awards content)
-
 ---
 
 ## US-25: View Awards & Achievements Page
