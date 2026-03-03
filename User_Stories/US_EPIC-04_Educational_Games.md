@@ -37,13 +37,3 @@
 - Keyboard/mouse controls work on desktop
 
 ---
-
-## US-17: Admin Manages Games
-
-> **As an** admin, **I want to** upload and manage games, **so that** the game library stays fresh.
-
-**Acceptance Criteria:**
-- List of all uploaded games with title, status, upload date
-- Upload game with title, description, thumbnail, game files
-- Edit game details or delete games
-- Toggle active/inactive — only active games visible to students
