@@ -36,20 +36,7 @@
 
 ---
 
-## US-24: Admin Manages Blog Posts
-
-> **As an** admin, **I want to** create, edit, and delete blog posts, **so that** the blog stays fresh and educational.
-
-**Acceptance Criteria:**
-- List of all posts with title, category, status, date
-- Rich text editor for creating/editing posts
-- Set category, tags, and featured image
-- Draft/Published status toggle
-- Delete with confirmation
-
----
-
-## US-25: Filter Blog by Category/Tags
+## US-24: Filter Blog by Category/Tags
 
 > **As a** student, **I want to** filter posts by category or tags, **so that** I find content for a specific subject.
 

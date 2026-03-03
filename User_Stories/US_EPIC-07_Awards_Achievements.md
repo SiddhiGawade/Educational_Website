@@ -4,7 +4,7 @@
 
 ---
 
-## US-26: View Awards & Achievements Page
+## US-25: View Awards & Achievements Page
 
 > **As a** visitor, **I want to** view a page showcasing awards and achievements, **so that** I feel inspired.
 
@@ -15,7 +15,7 @@
 
 ---
 
-## US-27: Browse Award Image Gallery
+## US-26: Browse Award Image Gallery
 
 > **As a** visitor, **I want to** browse award photos in a gallery, **so that** I can see achievements visually.
 
@@ -26,7 +26,7 @@
 
 ---
 
-## US-28: Admin Manages Awards Content
+## US-27: Admin Manages Awards Content
 
 > **As an** admin, **I want to** add, edit, and remove awards, **so that** the page reflects latest recognitions.
 
