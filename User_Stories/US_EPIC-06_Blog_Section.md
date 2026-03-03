@@ -1,6 +1,5 @@
 # User Stories — EPIC-06: Blog Section
 
-> **Depends On:** EPIC-02 (admin manages blog posts)
 
 ---
 
