@@ -10,7 +10,7 @@
 
 **Acceptance Criteria:**
 - Games page shows available games with title, thumbnail, description
-- Click "Play" loads the game in browser (no plugins)
+- Click "Play" loads the game in browser
 - Score displayed at end of game session
 - Best score shown on Games page
 
