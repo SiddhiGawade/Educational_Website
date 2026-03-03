@@ -1,0 +1,47 @@
+# Walkthrough: Resequenced Epics & User Stories
+
+## Development Sequence (Dependency Order)
+
+```mermaid
+graph LR
+    E1["EPIC-01<br/>Student Login"] --> E2["EPIC-02<br/>Admin Portal"]
+    E1 --> E3["EPIC-03<br/>Quizzes"]
+    E1 --> E4["EPIC-04<br/>Games"]
+    E2 --> E3
+    E2 --> E4
+    E2 --> E5["EPIC-05<br/>Videos"]
+    E2 --> E6["EPIC-06<br/>Blog"]
+    E2 --> E7["EPIC-07<br/>Awards"]
+```
+
+| # | Epic | Sprint | Depends On | Stories |
+|---|------|--------|-----------|---------|
+| 1 | Student Login & Profile | Week 1 | None | US-01 to US-05 |
+| 2 | Admin Portal | Week 1–2 | EPIC-01 | US-06 to US-08 |
+| 3 | Interactive Quizzes | Week 2 | EPIC-01, 02 | US-09 to US-13 |
+| 4 | Educational Games | Week 2–3 | EPIC-01, 02 | US-14 to US-17 |
+| 5 | Video Section | Week 3 | EPIC-02 | US-18 to US-20 |
+| 6 | Blog Section | Week 3 | EPIC-02 | US-21 to US-25 |
+| 7 | Awards & Achievements | Week 4 | EPIC-02 | US-26 to US-28 |
+
+## Folder Structure
+
+```
+Educational_Website/
+├── Epics/
+│   ├── EPIC-01_Student_Login_Profile.md
+│   ├── EPIC-02_Admin_Portal.md
+│   ├── EPIC-03_Interactive_Quizzes.md
+│   ├── EPIC-04_Educational_Games.md
+│   ├── EPIC-05_Video_Section.md
+│   ├── EPIC-06_Blog_Section.md
+│   └── EPIC-07_Awards_Achievements.md
+└── User_Stories/
+    ├── US_EPIC-01_Student_Login_Profile.md
+    ├── US_EPIC-02_Admin_Portal.md
+    ├── US_EPIC-03_Interactive_Quizzes.md
+    ├── US_EPIC-04_Educational_Games.md
+    ├── US_EPIC-05_Video_Section.md
+    ├── US_EPIC-06_Blog_Section.md
+    └── US_EPIC-07_Awards_Achievements.md
+```
