@@ -22,7 +22,6 @@
 
 **Acceptance Criteria:**
 - Clicking a card opens YouTube video in a new tab
-- Hover shows play icon overlay
 - Thumbnail loads from YouTube URL
 
 ---
