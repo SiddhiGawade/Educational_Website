@@ -1,46 +1,42 @@
-# User Stories — EPIC-06: Blog Section
+# User Stories — EPIC-06: Simple Content Management & Easy Updates
 
-
----
-
-## US-21: Browse Blog Posts
-
-> **As a** student, **I want to** browse educational blog posts, **so that** I can read supplementary material.
-
-**Acceptance Criteria:**
-- Blog page shows posts with title, excerpt, author, date, category
-- Posts paginated (10 per page)
-- Clicking a category shows all posts in that category
+> **Phase:** Phase 1
+> **Depends On:** All other EPICs (content management needed across all sections)
+> **Summary:** The website owner should be able to upload and update content easily without complex programming. This epic covers the simple admin/content management mechanism for the entire website.
 
 ---
 
-## US-22: Search Blog Posts
+## US-21: Simple Content Upload & Management
 
-> **As a** student, **I want to** search blog posts by keyword, **so that** I find articles on specific topics.
+> **As the** website owner, **I want to** upload and update website content easily, **so that** I can keep the site fresh without needing a developer.
 
 **Acceptance Criteria:**
-- Search bar on Blog page
-- Results update to show matching posts (title and content)
-- No matches → show "No posts found"
+- Simple admin panel or file-based system to manage content across all sections
+- Can update text, images, and links for any section
+- No complex programming knowledge required
+- Changes are reflected on the live website after saving/uploading
+- Clear instructions or guide provided for content management
 
 ---
 
-## US-23: Read Full Blog Post
+## US-22: Image Upload & Gallery Management
 
-> **As a** student, **I want to** click a post and read the full article, **so that** I can learn from the complete content.
+> **As the** website owner, **I want to** upload and manage images for various sections, **so that** the website always has up-to-date visuals.
 
 **Acceptance Criteria:**
-- Full article page with title, author, date, category, formatted content
-- Related posts shown at the bottom
-- Images and embedded media load correctly
+- Can upload images for: About Me, Awards, Subject sections, Flip Books, etc.
+- Images are resized/optimized automatically for web
+- Can replace or delete existing images
+- Simple drag-and-drop or file browser interface
 
 ---
 
-## US-24: Filter Blog by Category/Tags
+## US-23: Contact Page
 
-> **As a** student, **I want to** filter posts by category or tags, **so that** I find content for a specific subject.
+> **As a** visitor, **I want to** find contact information and reach out to the website owner, **so that** I can ask questions or give feedback.
 
 **Acceptance Criteria:**
-- Category filter (sidebar or top-bar)
-- Clickable tag badges on posts
-- Active filter highlighted; clear filter shows all posts
+- Contact page with basic contact information
+- Contact form with name, email, subject, and message fields
+- Form submits successfully and shows a confirmation message
+- Social media links (Facebook, YouTube, etc.) displayed on the page

@@ -1,39 +1,41 @@
-# User Stories — EPIC-02: Admin Portal
+# User Stories — EPIC-02: About Me & Founder Profile
 
-> **Depends On:** EPIC-01 (shared auth infrastructure)
-
----
-
-## US-06: Admin Login
-
-> **As an** admin, **I want to** log in securely, **so that** I can access the admin portal.
-
-**Acceptance Criteria:**
-- Valid admin credentials → redirect to Admin Dashboard
-- Invalid credentials → show "Invalid admin credentials"
-- Student credentials cannot access admin login
-- Session persists across admin pages
+> **Phase:** Phase 1
+> **Depends On:** EPIC-01 (Homepage links to About Me page)
+> **Summary:** A dedicated page showcasing the founder's profile including trainings, awards, exhibitions, and roles & responsibilities. The client should be able to easily update this content.
 
 ---
 
-## US-07: Admin Dashboard Overview
+## US-06: About Me Page — Overview
 
-> **As an** admin, **I want to** see a summary of platform activity, **so that** I can monitor engagement.
+> **As a** visitor, **I want to** view a detailed "About Me" page for the founder, **so that** I can learn about their qualifications and experience.
 
 **Acceptance Criteria:**
-- Summary cards: total students, active quizzes, pending registrations, total games, total videos, total blog posts
-- Pending registrations badge with link to approvals
-- Today's quiz status shown (submission count, declared or not)
-- Quick-action buttons: Upload Quiz, Approve Students
+- Page displays founder's full name, photo, and detailed biography
+- Sections for: Trainings, Awards, Exhibitions, Roles & Responsibilities
+- Content is organized in a clean, readable layout
+- Responsive on all devices
 
 ---
 
-## US-08: Approve/Reject Student Registrations
+## US-07: Trainings & Exhibitions Section
 
-> **As an** admin, **I want to** approve or reject student registrations, **so that** only legitimate students access the platform.
+> **As a** visitor, **I want to** see the founder's trainings and exhibitions, **so that** I understand their expertise and involvement.
 
 **Acceptance Criteria:**
-- Pending registrations list: student name, email, standard, school
-- "Approve" → student status changes to Approved (can log in)
-- "Reject" → student status changes to Rejected (cannot log in)
-- Bulk select and approve/reject multiple students at once
+- Trainings listed with title, description, and date/year
+- Exhibitions displayed with images and brief descriptions
+- Image gallery with photos from exhibitions and events
+- Clicking an image opens a lightbox view
+
+---
+
+## US-08: Admin Manages About Me Content
+
+> **As the** website owner, **I want to** easily update my About Me page content (trainings, awards, exhibitions, roles), **so that** the page stays current without needing a developer.
+
+**Acceptance Criteria:**
+- Simple interface or editable content file to update About Me details
+- Can add/edit/remove trainings, awards, exhibitions entries
+- Can upload and replace images
+- Changes reflect on the live page after update

@@ -1,36 +1,45 @@
-# User Stories — EPIC-07: Awards & Achievements
+# User Stories — EPIC-07: Interactive Quizzes & Educational Games (Phase 2)
 
-> **Depends On:** EPIC-02 (admin manages awards content)
-
----
-
-## US-25: View Awards & Achievements Page
-
-> **As a** visitor, **I want to** view a page showcasing awards and achievements, **so that** I feel inspired.
-
-**Acceptance Criteria:**
-- Awards page lists achievements with title, description, date
-- Visually organized with images and text
-- Responsive layout on mobile
+> **Phase:** Phase 2 (Deferred — not included in Phase 1)
+> **Depends On:** Phase 1 completion
+> **Summary:** Interactive quizzes and educational games will be developed in Phase 2. This epic is a placeholder to document the planned features for future development.
 
 ---
 
-## US-26: Browse Award Image Gallery
+## US-24: Student Attempts Quiz (Phase 2)
 
-> **As a** visitor, **I want to** browse award photos in a gallery, **so that** I can see achievements visually.
+> **As a** student, **I want to** attempt quizzes on various subjects (GK, English, Environmental, Science), **so that** I can test my knowledge.
 
 **Acceptance Criteria:**
-- Photos displayed in a grid layout
-- Clicking a photo opens lightbox with full-size image and navigation
-- Lazy loading for performance
+- Quiz section with categories: GK Quiz, English Quiz, Environmental Quiz, Science Quiz
+- Click "Start Quiz" to attempt a quiz
+- Multiple-choice questions with score displayed at the end
+- Quiz history and scores saved for returning users
 
 ---
 
-## US-27: Admin Manages Awards Content
+## US-25: Educational Games (Phase 2)
 
-> **As an** admin, **I want to** add, edit, and remove awards, **so that** the page reflects latest recognitions.
+> **As a** student, **I want to** play educational games, **so that** I can learn in a fun and engaging way.
 
 **Acceptance Criteria:**
-- List of all award entries with title, date, image count
-- Add award: title, description, date, upload multiple images
-- Edit/delete award entries
+- Games page with available educational games
+- Games are browser-based and responsive on all devices
+- Score tracking and progress display
+- Fun, interactive UI for younger learners
+
+---
+
+## US-26: Quiz Leaderboard & Results (Phase 2)
+
+> **As a** student, **I want to** see quiz results and a leaderboard, **so that** I can compare my performance with peers.
+
+**Acceptance Criteria:**
+- Auto-grading of quiz answers
+- Leaderboard showing top performers
+- Student can view their own quiz history and scores
+- Results announced on a scheduled basis (e.g., next day)
+
+---
+
+> **Note:** This epic will be scoped and estimated separately for Phase 2 after Phase 1 is launched and stable. The client has requested a separate cost estimate for Phase 2 features.

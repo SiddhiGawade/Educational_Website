@@ -1,37 +1,53 @@
-# User Stories — EPIC-05: Video Section
+# User Stories — EPIC-05: Blog & Daily Updates (External Links)
 
-> **Depends On:** EPIC-02 (admin manages video entries)
-
----
-
-## US-18: Browse Videos by Subject
-
-> **As a** student, **I want to** browse videos organized by subject, **so that** I find relevant content quickly.
-
-**Acceptance Criteria:**
-- Video section shows list of subjects (Math, Science, English, etc.)
-- Selecting a subject filters to show only those videos
-- Each video card shows YouTube thumbnail, title, description
-- Can filter by standard (8/9/10)
+> **Phase:** Phase 1
+> **Depends On:** EPIC-01 (Homepage links to blog section)
+> **Summary:** Blog posts and daily updates are presented as external links rather than an in-built blog system. The website links out to blog posts hosted on external platforms.
 
 ---
 
-## US-19: Open YouTube Video
+## US-17: Daily Updates Section
 
-> **As a** student, **I want to** click a video card and watch it on YouTube, **so that** I can learn from video content.
+> **As a** visitor, **I want to** see the latest daily updates on the website, **so that** I stay informed about new content and resources.
 
 **Acceptance Criteria:**
-- Clicking a card opens YouTube video in a new tab
-- Thumbnail loads from YouTube URL
+- Daily Updates section on homepage showing: Latest Blog, Career Guidance, GK Quiz of the Week
+- Each update has a thumbnail, title, and date
+- Clicking an update opens the external blog/resource link in a new tab
+- "View All" button to see all past updates
 
 ---
 
-## US-20: Admin Manages Video Entries
+## US-18: Blog Links Page
 
-> **As an** admin, **I want to** add, edit, and remove video entries, **so that** the video library stays current.
+> **As a** visitor, **I want to** browse a page with links to educational blog posts, **so that** I can read articles on various topics.
 
 **Acceptance Criteria:**
-- Table of all video entries with title, subject, standard, YouTube URL
-- Add video: paste YouTube URL, enter title, description, subject, standard
-- Edit/delete video entries
-- Thumbnail auto-fetched from YouTube URL
+- Blog page shows a list of blog post links with title, excerpt, category, and date
+- Clicking a blog entry redirects to the external blog post in a new tab
+- Posts organized by category (Career Guidance, General Knowledge, etc.)
+- Clean, minimal layout — no built-in blog editor or comment system
+
+---
+
+## US-19: India's Great Leaders Section
+
+> **As a** visitor, **I want to** access content about India's great leaders, **so that** I can learn about influential historical figures.
+
+**Acceptance Criteria:**
+- Dedicated section/page for India's Great Leaders (e.g., Dr. B.R. Ambedkar)
+- Content includes leader name, image, brief biography, and link to detailed resource
+- Links open in a new tab for external reading
+- Clean card-based layout
+
+---
+
+## US-20: Admin Manages Blog & Update Links
+
+> **As the** website owner, **I want to** easily add, edit, and remove blog/update links, **so that** the daily updates and blog section stay current.
+
+**Acceptance Criteria:**
+- Simple interface or editable content file to manage blog links
+- Can add/edit/remove entries with: title, excerpt, category, date, external URL
+- Changes reflect on the live page after update
+- No complex programming required

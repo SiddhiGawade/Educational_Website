@@ -1,39 +1,41 @@
-# User Stories — EPIC-04: Educational Games
+# User Stories — EPIC-04: Digital Audio/Video Books & External Media
 
-> **Depends On:** EPIC-01 (student login for score tracking), EPIC-02 (admin game management)
+> **Phase:** Phase 1
+> **Depends On:** EPIC-01 (Homepage navigation)
+> **Summary:** Provide external links to YouTube videos, audio books, and video lessons. No built-in video player — all video/audio content links to external platforms (YouTube, etc.).
 
 ---
 
-## US-14: Student Plays Educational Game
+## US-14: Digital Audio/Video Books Page
 
-> **As a** student, **I want to** play interactive learning games, **so that** I can learn in a fun way.
+> **As a** visitor, **I want to** access audio books and video lessons, **so that** I can learn through digital media.
 
 **Acceptance Criteria:**
-- Games page shows available games with title, thumbnail, description
-- Click "Play" loads the game in browser
-- Score displayed at end of game session
-- Best score shown on Games page
+- Dedicated page/section for Digital Audio/Video Books
+- Two categories: Audio Books and Video Lessons
+- Each entry shows title, description, and thumbnail
+- Clicking an entry opens the external link (YouTube/audio platform) in a new tab
 
 ---
 
-## US-15: Track Game Scores Per Student
+## US-15: YouTube Video Links Section
 
-> **As a** student, **I want** my game scores saved, **so that** I can track my progress.
+> **As a** visitor, **I want to** access YouTube educational videos via the website, **so that** I can watch video content on specific subjects.
 
 **Acceptance Criteria:**
-- Score saved to student profile after each game
-- Best score and most recent score visible
-- Dashboard "Game Scores" section shows summary of all games played
+- YouTube section on homepage with thumbnail and link
+- Clicking opens the YouTube video/channel in a new tab
+- Videos organized by subject or topic
+- Social media icons (Facebook, YouTube, etc.) in the section for quick access
 
 ---
 
-## US-16: Responsive Game Interface
+## US-16: Admin Manages External Media Links
 
-> **As a** student, **I want** games to work on my phone, tablet, or computer, **so that** I can learn from any device.
+> **As the** website owner, **I want to** easily add, edit, and remove video/audio links, **so that** the media section stays up to date without needing a developer.
 
 **Acceptance Criteria:**
-- Games adapt to screen size without horizontal scrolling
-- Touch controls work on mobile/tablet
-- Keyboard/mouse controls work on desktop
-
----
+- Simple interface or editable content file to manage media entries
+- Can add/edit/remove entries with: title, description, thumbnail, external URL
+- Changes reflect on the live page after update
+- No complex programming required to update links

@@ -1,63 +1,65 @@
-# User Stories — EPIC-03: Interactive Quizzes
+# User Stories — EPIC-03: Content Sections & Subject Pages
 
-> **Depends On:** EPIC-01 (student login), EPIC-02 (admin quiz management)
-
----
-
-## US-09: Admin Uploads Daily Quiz
-
-> **As an** admin, **I want to** create and upload a daily quiz, **so that** students have fresh content to test their knowledge.
-
-**Acceptance Criteria:**
-- Admin fills in quiz title, subject, standard, questions (MCQ), options, correct answers
-- Quiz saved with status: Draft or Published
-- Can set a publish date for the quiz
-- Can edit or delete a quiz before students attempt it
+> **Phase:** Phase 1
+> **Depends On:** EPIC-01 (Homepage links to content pages)
+> **Summary:** Build different sections/templates for main topics. Each section contains subtopics. The client should be able to upload and update the content easily without complex programming.
 
 ---
 
-## US-10: Student Attempts Quiz
+## US-09: Subject Content Pages (English, Science, General Knowledge)
 
-> **As a** student, **I want to** attempt the daily quiz, **so that** I can test my understanding.
+> **As a** visitor, **I want to** browse content organized by subject, **so that** I can find learning materials for a specific topic.
 
 **Acceptance Criteria:**
-- Today's quiz shown on Quiz section (if available)
-- Click "Start Quiz" loads all questions
-- Submit saves responses (one attempt per quiz)
-- Already attempted → show "Already Attempted"
-- Results not declared → show "Results will be announced tomorrow"
+- Separate pages/sections for English, Science, and General Knowledge
+- Each subject page shows a list of subtopics with title, description, and thumbnail
+- Clean template-based layout that is consistent across subjects
+- Responsive design for mobile and desktop
 
 ---
 
-## US-11: Teacher Declares Results
+## US-10: General Knowledge Section
 
-> **As an** admin, **I want to** declare quiz results the next day, **so that** students can see their scores.
+> **As a** visitor, **I want to** access General Knowledge content including biographies, inspirational videos, fine art, and travel blogs, **so that** I can expand my learning beyond academics.
 
 **Acceptance Criteria:**
-- "Declare Results" auto-grades all submissions
-- Students can see their score on dashboard after declaration
-- Leaderboard generated and published
-- Already declared → show warning
+- Section includes subtopics: Indian Great Leaders Biography, Inspirational Video, Fine Art, Travel Blog
+- Each subtopic has its own page or section with content
+- External video links open in a new tab (YouTube)
+- Blog/article links redirect to the external source
 
 ---
 
-## US-12: View Quiz Leaderboard
+## US-11: Career Guidance Section
 
-> **As a** student, **I want to** view the leaderboard, **so that** I can see how I rank against peers.
+> **As a** visitor, **I want to** access career guidance resources, **so that** I can explore career options after 10th grade.
 
 **Acceptance Criteria:**
-- Ranked list of top performers with names and scores
-- Current student's rank highlighted
-- Filter by quiz/date
-- Results not declared → show "Available after results are announced"
+- Career Guidance page with subtopics: Exploring Careers After 10th, Job Alerts, Skill Developments (Communication Skill), Self Employment (Small Business Opportunities)
+- Each subtopic has clear, readable content
+- External links open in new tabs where applicable
+- Responsive and clean layout
 
 ---
 
-## US-13: View Quiz History
+## US-12: Flip Book Section
 
-> **As a** student, **I want to** view my past quiz attempts and scores, **so that** I can track my progress.
+> **As a** visitor, **I want to** browse interactive flip books, **so that** I can study from digital textbooks in an engaging format.
 
 **Acceptance Criteria:**
-- List of all attempted quizzes sorted by date (newest first)
-- Each entry shows quiz title, date, score, total marks
-- Pending results → score shows "Pending"
+- Flip Book section on homepage and dedicated page
+- Thumbnails displayed for: Grammar Guide, Science Notes A+, and other flip books
+- "Browse Flip Books" button to see all available flip books
+- Clicking a flip book opens it or links to the flip book resource
+
+---
+
+## US-13: Must-Know Topics for Teachers
+
+> **As a** teacher, **I want to** access a dedicated section with critical teaching insights, **so that** I can stay updated on important educational topics.
+
+**Acceptance Criteria:**
+- Section titled "Must-Know Topics for Teachers — Critical Teaching Insights"
+- Subtopics with thumbnails: Competitive Exams, School Formality Links, and more
+- "Click Here" button to explore more resources
+- Clean and easy-to-navigate layout
